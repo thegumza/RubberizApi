@@ -16,16 +16,15 @@ class RubberApiService {
 
         @JvmStatic fun main(args: Array<String>) {
 
-            val timer = Timer()
             val newsTask = NewsTask
             val ussTask = USSPriceTask
             val rssTask = RSSPriceTask
             val localTask = LocalPriceTask
 
-            timer.scheduleAtFixedRate(newsTask, 0, 3600000)
-            timer.scheduleAtFixedRate(ussTask, 0, 3600000)
-            timer.scheduleAtFixedRate(rssTask, 0, 3600000)
-            timer.scheduleAtFixedRate(localTask, 0, 3600000)
+            newsTask.run()
+            ussTask.run()
+            rssTask.run()
+            localTask.run()
 
         }
 
