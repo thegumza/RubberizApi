@@ -4,18 +4,6 @@
     "latexPrice" : "83.00",
     "date" : "2017.02.01"
   }, {
-    "localPrice" : "88.40",
-    "latexPrice" : "0.00",
-    "date" : "2017.02.02"
-  }, {
-    "localPrice" : "86.90",
-    "latexPrice" : "0.00",
-    "date" : "2017.02.03"
-  }, {
-    "localPrice" : "85.50",
-    "latexPrice" : "0.00",
-    "date" : "2017.02.06"
-  }, {
     "localPrice" : "84.50",
     "latexPrice" : "73.00",
     "date" : "2017.02.07"
@@ -147,6 +135,22 @@
     "localPrice" : "67.80",
     "latexPrice" : "70.00",
     "date" : "2017.03.24"
+  }, {
+    "localPrice" : "65.80",
+    "latexPrice" : "68.00",
+    "date" : "2017.03.27"
+  }, {
+    "localPrice" : "65.80",
+    "latexPrice" : "66.50",
+    "date" : "2017.03.28"
+  }, {
+    "localPrice" : "66.80",
+    "latexPrice" : "65.00",
+    "date" : "2017.03.29"
+  }, {
+    "localPrice" : "66.80",
+    "latexPrice" : "65.00",
+    "date" : "2017.03.30"
   } ],
   "suratData" : [ {
     "localPrice" : "90.50",
@@ -296,6 +300,22 @@
     "localPrice" : "67.50",
     "latexPrice" : "67.35",
     "date" : "2017.03.24"
+  }, {
+    "localPrice" : "66.00",
+    "latexPrice" : "66.15",
+    "date" : "2017.03.27"
+  }, {
+    "localPrice" : "64.50",
+    "latexPrice" : "62.00",
+    "date" : "2017.03.28"
+  }, {
+    "localPrice" : "66.00",
+    "latexPrice" : "62.00",
+    "date" : "2017.03.29"
+  }, {
+    "localPrice" : "67.00",
+    "latexPrice" : "62.65",
+    "date" : "2017.03.30"
   } ],
   "nakornData" : [ {
     "localPrice" : "89.90",
@@ -445,5 +465,186 @@
     "localPrice" : "69.70",
     "latexPrice" : "67.50",
     "date" : "2017.03.24"
+  }, {
+    "localPrice" : "66.70",
+    "latexPrice" : "65.60",
+    "date" : "2017.03.27"
+  }, {
+    "localPrice" : "65.60",
+    "latexPrice" : "63.40",
+    "date" : "2017.03.28"
+  }, {
+    "localPrice" : "65.75",
+    "latexPrice" : "62.60",
+    "date" : "2017.03.29"
+  }, {
+    "localPrice" : "66.40",
+    "latexPrice" : "63.20",
+    "date" : "2017.03.30"
+  } ],
+  "yalaData" : [ {
+    "localPrice" : "85.85",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.01"
+  }, {
+    "localPrice" : "86.70",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.02"
+  }, {
+    "localPrice" : "82.55",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.03"
+  }, {
+    "localPrice" : "81.95",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.06"
+  }, {
+    "localPrice" : "83.25",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.07"
+  }, {
+    "localPrice" : "84.95",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.08"
+  }, {
+    "localPrice" : "85.65",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.09"
+  }, {
+    "localPrice" : "86.50",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.10"
+  }, {
+    "localPrice" : "87.65",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.14"
+  }, {
+    "localPrice" : "86.95",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.15"
+  }, {
+    "localPrice" : "86.55",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.16"
+  }, {
+    "localPrice" : "85.10",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.17"
+  }, {
+    "localPrice" : "78.65",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.20"
+  }, {
+    "localPrice" : "79.20",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.21"
+  }, {
+    "localPrice" : "77.95",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.22"
+  }, {
+    "localPrice" : "77.80",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.23"
+  }, {
+    "localPrice" : "70.60",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.24"
+  }, {
+    "localPrice" : "69.20",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.27"
+  }, {
+    "localPrice" : "69.85",
+    "latexPrice" : "0.00",
+    "date" : "2017.02.28"
+  }, {
+    "localPrice" : "70.15",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.01"
+  }, {
+    "localPrice" : "70.50",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.02"
+  }, {
+    "localPrice" : "70.80",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.03"
+  }, {
+    "localPrice" : "72.45",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.06"
+  }, {
+    "localPrice" : "71.20",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.07"
+  }, {
+    "localPrice" : "69.05",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.08"
+  }, {
+    "localPrice" : "67.90",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.09"
+  }, {
+    "localPrice" : "68.75",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.10"
+  }, {
+    "localPrice" : "68.10",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.13"
+  }, {
+    "localPrice" : "68.30",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.14"
+  }, {
+    "localPrice" : "68.65",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.15"
+  }, {
+    "localPrice" : "68.30",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.16"
+  }, {
+    "localPrice" : "68.85",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.17"
+  }, {
+    "localPrice" : "69.50",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.20"
+  }, {
+    "localPrice" : "68.20",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.21"
+  }, {
+    "localPrice" : "67.20",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.22"
+  }, {
+    "localPrice" : "65.35",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.23"
+  }, {
+    "localPrice" : "65.05",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.24"
+  }, {
+    "localPrice" : "62.10",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.27"
+  }, {
+    "localPrice" : "61.85",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.28"
+  }, {
+    "localPrice" : "62.50",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.29"
+  }, {
+    "localPrice" : "62.15",
+    "latexPrice" : "0.00",
+    "date" : "2017.03.30"
   } ]
 }
