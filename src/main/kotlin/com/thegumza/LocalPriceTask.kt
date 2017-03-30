@@ -53,22 +53,15 @@ object LocalPriceTask : TimerTask() {
                     nakorn?.localPrice = elements[x].getElementsByClass("num2")[5].text().replace(",", "")
                     nakorn?.latexPrice = elements[x].getElementsByClass("num2")[6].text().replace(",", "")
                     nakorn?.date = String.format("%s.%02d.%02d", year.toString(), (months.indexOf(month) + 1), elements[x].allElements.select(".day").text().toInt())
-                    val yala: LocalRubber? = LocalRubber()
-                    yala?.localPrice = elements[x].getElementsByClass("num2")[7].text().replace(",", "")
-                    yala?.latexPrice = elements[x].getElementsByClass("num2")[8].text().replace(",", "")
-                    yala?.date = String.format("%s.%02d.%02d", year.toString(), (months.indexOf(month) + 1), elements[x].allElements.select(".day").text().toInt())
-
                     songkhlaList?.add(songkla as LocalRubber)
                     suratList?.add(surat as LocalRubber)
                     nakornList?.add(nakorn as LocalRubber)
-                    yalaList?.add(yala as LocalRubber)
                 }
             }
         }
         rubberModel?.songkhlaData = songkhlaList?.filter { it.localPrice?.toDouble() != 0.0 ; it.latexPrice?.toDouble() != 0.0  } as MutableList<LocalRubber>
         rubberModel?.suratData = suratList?.filter { it.localPrice?.toDouble() != 0.0 ; it.latexPrice?.toDouble() != 0.0} as MutableList<LocalRubber>
         rubberModel?.nakornData = nakornList?.filter { it.localPrice?.toDouble() != 0.0 ; it.latexPrice?.toDouble() != 0.0} as MutableList<LocalRubber>
-        rubberModel?.yalaData = yalaList?.filter { it.localPrice?.toDouble() != 0.0 } as MutableList<LocalRubber>
 
         val mapper = ObjectMapper()
         mapper.enable(SerializationFeature.INDENT_OUTPUT)

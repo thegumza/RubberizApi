@@ -32,7 +32,6 @@ object RSSPriceTask : TimerTask() {
         val songkhlaList: MutableList<Rubber>? = ArrayList()
         val suratList: MutableList<Rubber>? = ArrayList()
         val nakornList: MutableList<Rubber>? = ArrayList()
-        val yalaList: MutableList<Rubber>? = ArrayList()
         for (x in elements?.indices!!) {
             if (x > 4) {
                 if (months.contains(elements[x].allElements[1].text())) {
@@ -51,22 +50,15 @@ object RSSPriceTask : TimerTask() {
                     nakorn?.price = elements[x].getElementsByClass("num2")[4].text().replace(",", "")
                     nakorn?.volume = elements[x].getElementsByClass("num2")[5].text().replace(",", "")
                     nakorn?.date = String.format("%s.%02d.%02d", year.toString(), (months.indexOf(month) + 1), elements[x].allElements.select(".day").text().toInt())
-                    val yala: Rubber? = Rubber()
-                    yala?.price = elements[x].getElementsByClass("num2")[6].text().replace(",", "")
-                    yala?.volume = elements[x].getElementsByClass("num2")[7].text().replace(",", "")
-                    yala?.date = String.format("%s.%02d.%02d", year.toString(), (months.indexOf(month) + 1), elements[x].allElements.select(".day").text().toInt())
-
                     songkhlaList?.add(songkla as Rubber)
                     suratList?.add(surat as Rubber)
                     nakornList?.add(nakorn as Rubber)
-                    yalaList?.add(yala as Rubber)
                 }
             }
         }
         rubberModel?.songkhlaData = songkhlaList?.filter { it.price?.toDouble() != 0.0 } as MutableList<Rubber>
         rubberModel?.suratData = suratList?.filter { it.price?.toDouble() != 0.0 } as MutableList<Rubber>
         rubberModel?.nakornData = nakornList?.filter { it.price?.toDouble() != 0.0 } as MutableList<Rubber>
-        rubberModel?.yalaData = yalaList?.filter { it.price?.toDouble() != 0.0 } as MutableList<Rubber>
 
         val mapper = ObjectMapper()
         mapper.enable(SerializationFeature.INDENT_OUTPUT)
